@@ -1,75 +1,94 @@
 /* */
 
-#metitle {
-  font-size: 24px;
-  font-family: 'Arvo', courier, serif;
-}
-
-ul.nav {
-  font-family: 'Arvo', courier, serif;
-}
-
-.navbar-brand {
-  font-family: 'Arvo', courier, serif;
-}
-
 body {
-  padding-top: 50px;
+    width: 100%;
+    height: 100%;
 }
 
+html {
+    width: 100%;
+    height: 100%;
+}
+
+#metitle {
+    font-size: 24px;
+    font-family: 'Arvo', courier, serif;
+}
+ul.nav {
+    font-family: 'Arvo', courier, serif;
+}
+.navbar-brand {
+    font-family: 'Arvo', courier, serif;
+}
 .content-template {
-  padding: 0px 14px;
-  text-align: center;
+    padding: 0px 14px;
+    text-align: center;
 }
-
 .jumbotron {
-  text-align: center;
-  color: black;
-  background-image: url('../img/1-bluemarble_west.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-blend-mode: overlay;
+    text-align: center;
+    color: black;
+    background-image: url('../img/1-bluemarble_west.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    height: 100%;
+    padding-top: 120px;
 }
-
 .jumbotron h1 {
-  text-shadow: 2px 2px 2px #aaa;
-  padding-left: 30px;
+    text-shadow: 2px 2px 2px #aaa;
+    padding-left: 30px;
 }
-
 .jumbotron p {
-  font-size: 18px;
+    font-size: 18px;
 }
-
 .vertical-align {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
-
 .hr-top {
-  	height: 10px;
-  	border: 0;
-  	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+    height: 10px;
+    border: 0;
+    box-shadow: 0 10px 10px -10px #8c8b8b inset;
 }
-
 #footer {
-  margin-top: 2px;
-  margin-bottom: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
-
 #headshot {
-  border-radius: 16px;
-  border: 2px solid #888;
-  width: 200px;
-  box-shadow: 4px 5px 28px -2px;
-
+    border-radius: 16px;
+    border: 2px solid #888;
+    width: 200px;
+    box-shadow: 4px 5px 28px -2px;
 }
-
 .projectpanel:hover {
-  transform: scale(1.1);
-  border-color: darkblue;
+    transform: scale(1.1);
+    border-color: darkblue;
+}
+.projectpanel {
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+.section-projects {
+    height: 100%;
+    padding-top: 50px;
+    background: #eee;
+}
+.section-contact {
+    height: 100%;
+    padding-top: 50px;
+    background: #fff;
 }
 
-.projectpanel {
-  transition: all 0.3s ease 0s;
-  width: 100%;
+/* ======================== */
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        transition: background .5s ease-in-out, padding .5s ease-in-out;
+    }
+    .top-nav-collapse {
+        padding: 0;
+    }
 }
