@@ -25,7 +25,7 @@ body {
 .jumbotron {
   text-align: center;
   color: black;
-  background-image: url('../images/1-bluemarble_west.jpg');
+  background-image: url('../img/1-bluemarble_west.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: overlay;
