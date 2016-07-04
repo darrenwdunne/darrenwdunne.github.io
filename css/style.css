@@ -4,15 +4,22 @@ body {
     width: 100%;
     height: 100%;
 }
-
 html {
     width: 100%;
     height: 100%;
 }
-
-#metitle {
-    font-size: 24px;
+h2 {
+    font-size: 32px;
     font-family: 'Arvo', courier, serif;
+    text-shadow: 2px 2px 2px #aaa;
+}
+h3 {
+    font-size: 32px;
+    font-family: 'Arvo', courier, serif;
+    text-shadow: 2px 2px 2px #aaa;
+    margin-bottom: 22px;
+    text-align: center;
+    align-self: center;
 }
 ul.nav {
     font-family: 'Arvo', courier, serif;
@@ -34,10 +41,6 @@ ul.nav {
     height: 100%;
     padding-top: 120px;
 }
-.jumbotron h1 {
-    text-shadow: 2px 2px 2px #aaa;
-    padding-left: 30px;
-}
 .jumbotron p {
     font-size: 18px;
 }
@@ -49,10 +52,6 @@ ul.nav {
     height: 10px;
     border: 0;
     box-shadow: 0 10px 10px -10px #8c8b8b inset;
-}
-#footer {
-    margin-top: 2px;
-    margin-bottom: 2px;
 }
 #headshot {
     border-radius: 16px;
