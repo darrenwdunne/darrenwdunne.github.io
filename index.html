@@ -18,7 +18,7 @@
 
 <body>
   <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
+    <div id="section-home" class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
           <span class="sr-only">Toggle navigation</span>
@@ -31,7 +31,7 @@
       <div id="navbar" class="collapse navbar-collapse navbar-right">
 
         <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Home</a></li>
+          <li class="active"><a href="#section-home">Home</a></li>
           <li><a href="#section-projects">Projects</a></li>
           <li><a href="#section-contact">Contact</a></li>
         </ul>
@@ -50,24 +50,75 @@
 
 
           <h1 id="metitle">Darren W Dunne - <em>Front End Developer</em></h1>
-          <p>I have a passion for <strong>Users</strong> - constantly striving to understand their goals, challenges, frustrations, and even fears they have while interacting with the software we create for them.</p>
+          <p>I have a passion for <strong>Users</strong> - constantly striving to understand their goals, challenges, frustrations, and even fears they have interacting with the software we create for them.</p>
           <p>I've worn many hats: Programmer, Designer, Scrum Master, Chief Programmer, and Software Development Release Manager. These roles have allowed me to lead distributed teams through the complete software development lifecycle.</p>
-          <p>From Requirements Gathering to UX and UI Design, to Project, Release and People Management, I always focued our efforts on the needs of the <strong>User</strong>.</p>
+          <p>From Requirements Gathering to UX and UI Design, to Project, Release and People Management, I always focued my efforts on the needs of the <strong>User</strong>.</p>
+          <p><a class="btn btn-primary btl-lg" href="#section-projects" role="button">Learn more about my passion for Software Development</a></p>
         </div>
-      </div>
-      <div class="row">
-        <hr class="hr-top" />
-        <p>I invite you to read on and contact me, so that I can share with you my passion for <em>Front End Development.</em></p>
-        <hr class="hr-top" />
       </div>
 
     </div>
+
   </div>
-
-
   <div id="section-projects">
     <h1>Projects</h1>
-    <p>Stay tuned...</p>
+
+    <div class="container">
+      <div class="row vertical-align">
+        <div class="col-md-4">
+          <div class="panel panel-info projectpanel">
+            <div class="panel-heading ">
+              <div class="panel-title">
+                <h4>HTML5 Canvas Drawing</h4></div>
+            </div>
+            <div class="panel-body">
+              <p>Classic "Pong" arcade game demonstrating drawing on HTML5 canvas, user interaction with mouse.</p>
+              <p><a class="btn btn-primary btl-lg" href="#section-projects" role="button">Show me</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="panel panel-info projectpanel">
+            <div class="panel-heading ">
+              <div class="panel-title">
+                <h4>Bootstrap Responsive Pages</h4></div>
+            </div>
+            <div class="panel-body">
+              <p>Example website demonstrating Responsive web pages on multiple devices</p>
+              <p><a class="btn btn-primary btl-lg" href="#section-projects" role="button">Show me</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="panel panel-info projectpanel">
+            <div class="panel-heading ">
+              <div class="panel-title">
+                <h4>Something else</h4></div>
+            </div>
+            <div class="panel-body">
+              <p>something else<br /><br /><br /></p>
+              <p><a class="btn btn-primary btl-lg" href="#section-projects" role="button">Show me</a></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="row">
+
+        <div class="col-md-4">
+          <div class="panel panel-info projectpanel">
+            <div class="panel-heading ">
+              <div class="panel-title">
+                <h4>One more</h4></div>
+            </div>
+            <div class="panel-body">
+              <p>something else</p>
+              <p><a class="btn btn-primary btl-lg" href="#section-projects" role="button">Show me</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <div id="section-contact">
@@ -104,6 +155,7 @@
   <script src="libs/jquery/jquery-1.11.3.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="libs/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
