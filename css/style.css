@@ -47,7 +47,7 @@ h4 {
     padding-top: 120px;
 }
 .jumbotron p {
-    font-size: 18px;
+    font-size: 2ems;
 }
 .vertical-align {
     display: flex;
