@@ -21,6 +21,14 @@ h3 {
     text-align: center;
     align-self: center;
 }
+h4 {
+    font-size: 24px;
+    font-family: 'Arvo', courier, serif;
+    text-shadow: 2px 2px 2px #aaa;
+    margin: 22px;
+    text-align: center;
+    align-self: center;
+}
 .nav, .navbar-brand {
     font-family: 'Arvo', courier, serif;
 }
@@ -31,7 +39,7 @@ h3 {
 .jumbotron {
     text-align: center;
     color: black;
-    background-image: url('../img/1-bluemarble_west.jpg');
+    background-image: url('../img/earth.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
@@ -67,12 +75,21 @@ h3 {
 .section-projects {
     height: 100%;
     padding-top: 50px;
-    background: #eee;
+    background: #ddd;
+    background-image: url('../img/laptop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+
 }
 .section-contact {
-    height: 100%;
+    height: 95%;
     padding-top: 50px;
-    background: #fff;
+    background: #ddd;
+    background-image: url('../img/writing.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
 }
 a.btn-showme:after {
     font-family: FontAwesome;
