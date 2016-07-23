@@ -8,13 +8,14 @@ html {
     width: 100%;
     height: 100%;
 }
+
 h2 {
     font-size: 3.0vw;
     font-family: 'Arvo', courier, serif;
     text-shadow: 2px 2px 2px #aaa;
 }
 h3 {
-    font-size: 3.0vh;
+    font-size: 2.5vw;
     font-family: 'Arvo', courier, serif;
     text-shadow: 2px 2px 2px #aaa;
     margin-bottom: 22px;
@@ -22,7 +23,7 @@ h3 {
     align-self: center;
 }
 h4 {
-    font-size: 24px;
+    font-size: 2.0vw;
     font-family: 'Arvo', courier, serif;
     text-shadow: 2px 2px 2px #aaa;
     margin: 22px;
@@ -47,19 +48,19 @@ h4 {
     padding-top: 120px;
 }
 .jumbotron p {
-    font-size: 2vmin
+    font-size: 2.2vmin
 }
 .vertical-align {
     display: flex;
     align-items: center;
 }
 .hr-top {
-    height: 10px;
+    height: 1em;
     border: 0;
     box-shadow: 0 10px 10px -10px #8c8b8b inset;
 }
 .headshot {
-    border-radius: 16px;
+    border-radius: 1em;
     border: 2px solid #888;
     width: 200px;
     box-shadow: 4px 5px 28px -2px;
@@ -94,12 +95,12 @@ h4 {
 a.btn-showme:after {
     font-family: FontAwesome;
     content: "\f061";
-    padding-left: 5px;
+    padding-left: 0.5em;
     vertical-align: middle;
 }
 a.btn-learnmore:after, a.btn-learnmore:before {
     font-family: FontAwesome;
-    font-size: 22px;
+    font-size: 3.0vw;
     content: "\f103";
     padding-left: 8px;
     padding-right: 8px;
@@ -118,4 +119,11 @@ a.btn-learnmore:after, a.btn-learnmore:before {
     .top-nav-collapse {
         padding: 0;
     }
+    /*.btn {
+      font-size: 1.6vw;
+    }*/
+    p {
+      font-size: 1.5vw;
+    }
+
 }
