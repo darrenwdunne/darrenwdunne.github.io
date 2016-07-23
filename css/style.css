@@ -9,12 +9,12 @@ html {
     height: 100%;
 }
 h2 {
-    font-size: 32px;
+    font-size: 3.0vw;
     font-family: 'Arvo', courier, serif;
     text-shadow: 2px 2px 2px #aaa;
 }
 h3 {
-    font-size: 32px;
+    font-size: 3.0vh;
     font-family: 'Arvo', courier, serif;
     text-shadow: 2px 2px 2px #aaa;
     margin-bottom: 22px;
@@ -47,7 +47,7 @@ h4 {
     padding-top: 120px;
 }
 .jumbotron p {
-    font-size: 2em;
+    font-size: 2vmin
 }
 .vertical-align {
     display: flex;
