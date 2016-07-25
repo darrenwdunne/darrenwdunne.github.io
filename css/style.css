@@ -9,12 +9,6 @@ html {
     height: 100%;
 }
 
-.jumbotron h1 {
-    font-family: 'Arvo', courier, serif;
-    font-size: 4.0vw;
-    text-shadow: 2px 2px 2px #ddd;
-    margin-bottom: 42px;
-}
 h2 {
     font-size: 3.2vw;
     font-family: 'Arvo', courier, serif;
@@ -32,13 +26,21 @@ h3 {
 h4 {
     font-size: 2.3vw;
     font-family: 'Arvo', courier, serif;
-    text-shadow: 2px 2px 2px #aaa;
+    text-shadow: 2px 2px 2px #ddd;
     margin: 22px;
     text-align: center;
     align-self: center;
 }
+h5 {
+    font-size: 2.3vw;
+    font-family: 'Arvo', courier, serif;
+    text-shadow: 1px 1px 1px #ddd;
+    /*margin: 0px 0px 10px 12px;*/
+    text-align: left;
+}
 .nav, .navbar-brand {
     font-family: 'Arvo', courier, serif;
+    font-size: 1.8vw;
 }
 .content-template {
     padding: 0px 14px;
@@ -54,9 +56,16 @@ h4 {
     padding-top: 160px;
     margin-bottom: 0px;
 }
-.jumbotron p {
-    font-size: 2.2vmin
+.jumbotron h1 {
+    font-family: 'Arvo', courier, serif;
+    font-size: 4.0vw;
+    text-shadow: 2px 2px 2px #ddd;
+    margin-bottom: 42px;
 }
+.jumbotron p {
+    font-size: 2.2vw;
+}
+
 .vertical-align {
     display: flex;
     align-items: center;
@@ -87,6 +96,14 @@ h4 {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.prod {
+    font-size: 1.6vw;
+    font-family: 'Arvo', courier, serif;
+    text-shadow: 1px 1px 1px #ccc;
+    margin: 22px;
+    color: darkblue;
+}
+
 .section-contact {
     height: 95%;
     padding-top: 100px;
@@ -108,6 +125,10 @@ a.btn-learnmore:after, a.btn-learnmore:before {
     padding-right: 8px;
     vertical-align: middle;
 }
+.btn {
+    font-size: 1.7vw;
+    margin: 22px;
+}
 
 /* ======================== */
 
@@ -124,8 +145,9 @@ a.btn-learnmore:after, a.btn-learnmore:before {
     /*.btn {
       font-size: 1.6vw;
     }*/
-    p {
-      font-size: 1.5vw;
+    p, .jumbotron p {
+      /*font-size: 1.5vw;*/
+      font-size: 1.8vw;
     }
 
 }
