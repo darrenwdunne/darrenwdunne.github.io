@@ -86,11 +86,21 @@ a.btn-learnmore:after, a.btn-learnmore:before {
     padding: 0;
   }
   .prod {
+    font-family: 'Arvo', courier, serif;
     text-shadow: 1px 1px 1px #ccc;
     margin: 22px;
     color: darkblue;
   }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Arvo', courier, serif;
+    text-shadow: 2px 2px 2px #ddd;
+    text-align: center;
+  }
+  .nav, .navbar-brand {
+    font-family: 'Arvo', courier, serif;
+  }
   .jumbotron h1 {
+    font-family: 'Arvo', courier, serif;
     text-shadow: 2px 2px 2px #ddd;
     margin-bottom: 42px;
   }

@@ -1,99 +1,235 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <!-- <link rel="icon" href="../../favicon.ico"> -->
+    <title>Darren W Dunne</title>
+    <link rel="stylesheet" href="libs/bootstrap-3.3.6-dist/css/bootstrap.min.css"/>
+    <!-- <link rel="stylesheet" href="libs/bootstrap-3.3.6-dist/css/bootstrap-theme.min.css"/> -->
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="libs/bootstrap-social-gh-pages/bootstrap-social.css"/>
+    <link rel="stylesheet" href="libs/font-awesome-animation.min.css"/>
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet" type="text/css">
 
-    <title>Navbar Template for Bootstrap</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="libs/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="libs/ie10-viewport-bug-workaround.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="css/navbar.css" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="libs/ie-emulation-modes-warning.js"></script>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
   </head>
 
-  <body>
+  <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header page-scroll">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-ex1-collapse" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar">
+              <!-- -->
+            </span>
+            <span class="icon-bar">
+              <!-- -->
+            </span>
+            <span class="icon-bar">
+              <!-- -->
+            </span>
+          </button>
+          <a class="navbar-brand page-scroll" href="#page-top">Darren W Dunne</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+            <li class="hidden">
+              <a class="page-scroll" href="#page-top"></a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#page-top">Home</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#projects">Projects</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="intro" class="jumbotron section-intro">
+      <div class="container">
+        <!-- <div class="row vertical-align"> -->
+        <div class="row">
+          <div class="col-md-3 col-s-6">
+            <img class="headshot" src="img/DarrenDunne.png" title="Image of Darren Dunne" alt="Image of Darren Dunne"/>
+          </div>
+          <div class="col-md-9 col-s-6">
+            <h1>Darren W Dunne</h1>
+            <h2>
+              <em>Front-End Web Developer</em>
+            </h2>
+            <p>I am a Front-End Web Developer,
+              <strong>dedicated to understanding how software affects Users</strong>
+              - constantly striving to understand User’s goals, challenges, frustrations, and even the fears they have interfacing with the software we create for them.</p>
+            <p>In my career in software development,
+              <strong>I’ve worn many hats</strong>: Programmer, Designer, Scrum Master, UI Development Lead, Chief Programmer, and Software Development Release Manager. These roles have allowed me to experience and influence the complete software development lifecycle in several high-profile products.</p>
+            <p>From Requirements Analysis, to UX and UI Design, to Development to Project and Release Management,
+              <strong>
+                I consistently strive to focus on the needs of the User and deliver well-designed, useful, and marketable products.</strong>
+            </p>
+            <p>
+              <a class="btn btn-primary btl-lg page-scroll btn-learnmore" href="#projects" role="button">Learn more about me</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Projects Section -->
+    <div id="projects" class="section-projects">
+      <h2>Projects</h2>
+      <div class="container">
+        <h3 class="text-left">Professional products that I have worked on recently:</h3>
+        <div>
+          <a class="prod" href="http://www-03.ibm.com/software/products/en/netcool-operations-insight">IBM Netcool Operations Insight (NOI)</a>
+        </div>
+        <div>
+          <a class="prod" href="http://www-03.ibm.com/software/products/en/tivonetc">IBM Tivoli Netcool / Impact</a>
+        </div>
+        <div>
+          <a class="prod" href="http://www-03.ibm.com/software/products/en/tivoli-business-service-manager">IBM Tivoli Business Service Manager (TBSM)</a>
+        </div>
+        <br/>
+      </div>
+      <div class="container">
+        <h3 class="text-left">Personal projects that I have developed, relating to Front-End Web Development:</h3>
+        <!-- <div class="row vertical-align"> -->
+        <div class="row">
+          <div class="col-md-4">
+            <div class="panel panel-info projectpanel">
+              <div class="panel-heading ">
+                <div class="panel-title">
+                  <h4>HTML5 Canvas Drawing</h4>
+                </div>
+              </div>
+              <div class="panel-body">
+                <p>Classic "Pong" arcade game demonstrating drawing on HTML5 canvas with collision detection and mouse events.</p>
+                <p>
+                  <a class="btn btn-primary btl-lg btn-showme faa-pulse animated-hover" href="https://github.com/darrenwdunne/pong" target="_blank" role="button">Show me</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="panel panel-info projectpanel">
+              <div class="panel-heading ">
+                <div class="panel-title">
+                  <h4>Bootstrap Responsive Pages</h4>
+                </div>
+              </div>
+              <div class="panel-body">
+                <p>My website using Bootstrap to demonstrate Responsive web pages with auto-scaling and smooth scrolling on multiple types of devices.</p>
+                <p>
+                  <a class="btn btn-primary btl-lg btn-showme faa-pulse animated-hover" href="https://github.com/darrenwdunne/darrenwdunne.github.io" target="_blank" role="button">Show me</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col-md-4">
+          <div class="panel panel-info projectpanel">
+            <div class="panel-heading ">
+              <div class="panel-title">
+                <h4>Something else</h4></div>
+            </div>
+            <div class="panel-body">
+              <p>something else
+                <br />
+                <br />
+                <br />
+              </p>
+              <p><a class="btn btn-primary btl-lg btn-showme faa-pulse animated-hover" href="#section-projects" role="button">Show me</a></p>
+            </div>
+          </div>
+        </div> -->
+
+        </div>
+        <!-- <div class="row">
+
+        <div class="col-md-4">
+          <div class="panel panel-info projectpanel">
+            <div class="panel-heading ">
+              <div class="panel-title">
+                <h4>One more</h4></div>
+            </div>
+            <div class="panel-body">
+              <p>something else</p>
+              <p><a class="btn btn-primary btl-lg btn-showme faa-pulse animated-hover" href="#section-projects" role="button">Show me</a></p>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      </div>
+    </div>
+
+    <div id="contact" class="section-contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <div class="row">
+          <div class="col-md-1"></div>
+          <div class="col-md-5">
+            <a class="btn btn-block btn-social btn-twitter btn-lg" href="mailto:darrenwdunne@gmail.com" target="_top">
+              <span class="fa fa-envelope">
+                <!-- -->
+              </span>darrenwdunne@gmail.com</a>
+          </div>
+          <div class="col-md-5">
+            <a class="btn btn-block btn-social btn-linkedin btn-lg" href="https://www.linkedin.com/in/darrenwdunne" target="_blank">
+              <span class="fa fa-linkedin">
+                <!-- -->
+              </span>LinkedIn</a>
+          </div>
+        </div>
+
+        <h3>Current Resume</h3>
+        <div class="row">
+          <div class="col-md-1"></div>
+          <div class="col-md-5">
+            <a class="btn btn-block btn-social btn-google btn-lg" href="https://github.com/darrenwdunne/resume/blob/master/DarrenWDunne-Resume-2016.pdf" target="_blank">
+              <span class="fa fa-file-pdf-o">
+                <!-- -->
+              </span>Resume (.pdf)</a>
+          </div>
+          <div class="col-md-5">
+            <a class="btn btn-block btn-social btn-google btn-lg" href="https://github.com/darrenwdunne/resume/blob/master/DarrenWDunne-Resume-2016.docx" target="_blank">
+              <span class="fa fa-file-word-o">
+                <!-- -->
+              </span>Resume (.docx)</a>
+          </div>
+        </div>
+        <h3>Code</h3>
+        <div class="row">
+          <div class="col-md-3"></div>
+          <div class="col-md-6">
+            <a class="btn btn-block btn-social btn-github btn-lg" href="https://github.com/darrenwdunne" target="_blank">
+              <span class="fa fa-github">
+                <!-- -->
+              </span>My GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <div class="container">
 
-      <!-- Static navbar -->
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Project name</a>
-          </div>
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li class="dropdown-header">Nav header</li>
-                  <li><a href="#">Separated link</a></li>
-                  <li><a href="#">One more separated link</a></li>
-                </ul>
-              </li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="./">Default <span class="sr-only">(current)</span></a></li>
-              <li><a href="../navbar-static-top/">Static top</a></li>
-              <li><a href="../navbar-fixed-top/">Fixed top</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div><!--/.container-fluid -->
-      </nav>
-
-      <!-- Main component for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <h1>Navbar example</h1>
-        <p>This example is a quick exercise to illustrate how the default, static navbar and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
-        <p>
-          <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
-        </p>
-      </div>
-
-    </div> <!-- /container -->
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+      <p class="navbar-text">&copy; Darren W Dunne, 2016.</p>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="libs/jquery/jquery-1.12.4.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="libs/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="libs/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/script.js"></script>
+    <script src="libs/jquery.easing.min.js"></script>
+    <script src="libs/scrolling-nav.js"></script>
   </body>
+
 </html>
