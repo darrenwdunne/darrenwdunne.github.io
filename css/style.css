@@ -76,7 +76,7 @@ a.btn-learnmore:after, a.btn-learnmore:before {
 
 /* Only do the styling on desktop (high-res) devices */
 
-@media(min-width:1200px) {
+@media(min-width:1081px) {
   .navbar {
     padding: 20px 0;
     -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
