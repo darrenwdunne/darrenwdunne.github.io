@@ -78,10 +78,11 @@ a.btn-learnmore:after, a.btn-learnmore:before {
 
 @media screen and (max-width: 767px) {
   body {
-    font-size: 0.9em;
+    font-size: 1.9em;
   }
   p {
     color: red;
+    font-size: 1.9em;
   }
 }
 
@@ -122,7 +123,6 @@ a.btn-learnmore:after, a.btn-learnmore:before {
     padding: 0;
   }
   .prod {
-    font-size: 1.6vw;
     font-family: 'Arvo', courier, serif;
     text-shadow: 1px 1px 1px #ccc;
     margin: 22px;
@@ -135,11 +135,9 @@ a.btn-learnmore:after, a.btn-learnmore:before {
   }
   .nav, .navbar-brand {
     font-family: 'Arvo', courier, serif;
-    font-size: 1.8vw;
   }
   .jumbotron h1 {
     font-family: 'Arvo', courier, serif;
-    font-size: 4.0vw;
     text-shadow: 2px 2px 2px #ddd;
     margin-bottom: 42px;
   }
