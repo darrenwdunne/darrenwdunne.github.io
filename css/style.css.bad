@@ -9,28 +9,28 @@ html {
     height: 100%;
 }
 
-.jumbotron h1 {
+h1 {
+    font-size: 2.7vw;
     font-family: 'Arvo', courier, serif;
-    font-size: 4.0vw;
-    text-shadow: 2px 2px 2px #ddd;
+    text-shadow: 2px 2px 2px #aaa;
     margin-bottom: 42px;
 }
 h2 {
-    font-size: 3.2vw;
+    font-size: 2.7vw;
     font-family: 'Arvo', courier, serif;
-    text-shadow: 2px 2px 2px #ddd;
+    text-shadow: 4px 4px 4px #aaa;
     margin-bottom: 42px;
 }
 h3 {
-    font-size: 3.0vw;
+    font-size: 2.2vw;
     font-family: 'Arvo', courier, serif;
-    text-shadow: 2px 2px 2px #ddd;
+    text-shadow: 2px 2px 2px #aaa;
     margin-bottom: 42px;
     text-align: center;
     align-self: center;
 }
 h4 {
-    font-size: 2.3vw;
+    font-size: 2.0vw;
     font-family: 'Arvo', courier, serif;
     text-shadow: 2px 2px 2px #aaa;
     margin: 22px;
