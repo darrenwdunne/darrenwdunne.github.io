@@ -80,6 +80,9 @@ a.btn-learnmore:after, a.btn-learnmore:before {
   body {
     font-size: 0.9em;
   }
+  p {
+    color: red;
+  }
 }
 
 /* sm */
