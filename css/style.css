@@ -75,8 +75,7 @@ a.btn-learnmore:after, a.btn-learnmore:before {
 }
 
 /* Only do the styling on desktop (high-res) devices */
-
-@media(min-width:1081px) {
+@media (min-width:768px) {
   .navbar {
     padding: 20px 0;
     -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
@@ -86,9 +85,6 @@ a.btn-learnmore:after, a.btn-learnmore:before {
   .top-nav-collapse {
     padding: 0;
   }
-  /*p, .jumbotron p {
-      font-size: 1.8vw;
-    }*/
   .prod {
     font-size: 1.6vw;
     font-family: 'Arvo', courier, serif;
@@ -102,21 +98,17 @@ a.btn-learnmore:after, a.btn-learnmore:before {
     text-align: center;
   }
   h2 {
-    font-size: 3.2vw;
     margin-bottom: 42px;
   }
   h3 {
-    font-size: 3.0vw;
     margin-bottom: 42px;
     align-self: center;
   }
   h4 {
-    font-size: 2.3vw;
     margin: 22px;
     align-self: center;
   }
   h5 {
-    font-size: 2.3vw;
     text-shadow: 1px 1px 1px #ddd;
   }
   .nav, .navbar-brand {
@@ -128,9 +120,6 @@ a.btn-learnmore:after, a.btn-learnmore:before {
     font-size: 4.0vw;
     text-shadow: 2px 2px 2px #ddd;
     margin-bottom: 42px;
-  }
-  .jumbotron p {
-    font-size: 2.2vw;
   }
   /*.btn {
     font-size: 1.7vw;
