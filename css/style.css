@@ -96,7 +96,7 @@ a.btn-learnmore:after, a.btn-learnmore:before {
     margin: 22px;
     color: darkblue;
   }
-  h1, h2, h3, h4, h5, h6, h7 {
+  h1, h2, h3, h4, h5, h6 {
     font-family: 'Arvo', courier, serif;
     text-shadow: 2px 2px 2px #ddd;
     text-align: center;
