@@ -21,6 +21,7 @@ html {
   height: 100%;
   padding-top: 160px;
   margin-bottom: 0px;
+  position: relative;
 }
 .vertical-align {
   display: flex;
@@ -40,10 +41,12 @@ html {
 .projectpanel {
   transition: all 0.3s ease 0s;
   width: 100%;
+  margin-top: 20px;
 }
 .projectpanel:hover {
   transform: scale(1.1);
   border-color: darkblue;
+  border-width: 3px;
 }
 .section-projects {
   height: 100%;
@@ -51,6 +54,7 @@ html {
   background-image: url('../img/laptop.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 .section-contact {
   height: 95%;
@@ -58,6 +62,10 @@ html {
   background-image: url('../img/writing.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+}
+a.btn-showme {
+  font-size: 130%;
 }
 a.btn-showme:after {
   font-family: FontAwesome;
@@ -65,14 +73,34 @@ a.btn-showme:after {
   padding-left: 0.5em;
   vertical-align: middle;
 }
+a.btn-learnmore, a.btn-home {
+  margin-top: 2em;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
 a.btn-learnmore:after, a.btn-learnmore:before {
   font-family: FontAwesome;
-  font-size: 3.0vw;
+  /*font-size: 200%;*/
   content: "\f103";
   padding-left: 8px;
   padding-right: 8px;
   vertical-align: middle;
 }
+a.btn-home {
+}
+a.btn-home:after, a.btn-home:before {
+  font-family: FontAwesome;
+  /*font-size: 200%;*/
+  content: "\f015";
+  padding-left: 8px;
+  padding-right: 8px;
+  vertical-align: middle;
+}
+.footer {
+  background-color: lightgray;
+}
+
 /* Only do the styling on desktop (high-res) devices */
 
 @media (min-width:768px) {
@@ -87,6 +115,7 @@ a.btn-learnmore:after, a.btn-learnmore:before {
   }
   .prod {
     font-family: 'Arvo', courier, serif;
+    font-size: 120%;
     text-shadow: 1px 1px 1px #ccc;
     margin: 22px;
     color: darkblue;
@@ -98,6 +127,9 @@ a.btn-learnmore:after, a.btn-learnmore:before {
   }
   .nav, .navbar-brand {
     font-family: 'Arvo', courier, serif;
+  }
+  .navbar-nav {
+    font-size: 120%;
   }
   .jumbotron h1 {
     font-family: 'Arvo', courier, serif;
